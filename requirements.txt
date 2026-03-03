@@ -1,0 +1,21 @@
+# Core simulation
+mujoco>=3.0
+mujoco-mjx
+brax
+
+# Terrain generation
+numpy
+opencv-python
+noise
+
+# JAX (often installed via brax, but explicit for clarity)
+jax
+jaxlib
+
+# Utilities
+etils
+ml-collections
+
+# Optional: for notebook visualization
+matplotlib
+Pillow
